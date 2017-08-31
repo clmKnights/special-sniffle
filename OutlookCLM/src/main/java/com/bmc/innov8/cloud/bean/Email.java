@@ -5,7 +5,6 @@ import com.bmc.innov8.cloud.constants.MessageType;
 public class Email implements Message{
 	
 MessageStatus emailStatus;
-
 	@Override
 	public int send(String text) {
 		// TODO Auto-generated method stub
